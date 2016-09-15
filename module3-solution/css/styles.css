@@ -1,3 +1,12 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
 #brand {
 	font-size: 180%;
 	font-weight: 600;
@@ -5,19 +14,25 @@
 }
 
 
-.navbar-header {
-	background-color: lightgray;
+.navbar-default {
+	background-color: gray;
 }
+
 
 .navbar-nav {
 	text-align: center;
 	font-weight: bold;
 	font-size: 140%;
+	background-color: white;
 }
+
 
 .navbar-nav li {
 	border: 1px solid black;
+	background-color: #f4f4f4;
+
 }
+
 
 #text-section {
 	background-color: gray;
@@ -28,6 +43,11 @@
 }
 
 #lorem {
-	padding: 10px;
+	padding: 20px;
 	font-size: 120%;
+}
+
+.navbar-collapse {
+	border: none;
+
 }
