@@ -1,0 +1,33 @@
+#brand {
+	font-size: 180%;
+	font-weight: 600;
+	color: black;
+}
+
+
+.navbar-header {
+	background-color: lightgray;
+}
+
+.navbar-nav {
+	text-align: center;
+	font-weight: bold;
+	font-size: 140%;
+}
+
+.navbar-nav li {
+	border: 1px solid black;
+}
+
+#text-section {
+	background-color: gray;
+}
+
+#text-section h3 {
+	padding-top: 15px;
+}
+
+#lorem {
+	padding: 10px;
+	font-size: 120%;
+}
