@@ -5,8 +5,9 @@
 angular.module('LunchCheck',[])
 
 
-.controller('LunchCheckController', function ($scope) {
-	LunchCheck.$inject = [$scope];
+.controller('LunchCheckController', LunchCheckController);
+	function LunchCheckController($scope) {
+	LunchCheckController.$inject = ['$scope'];
 	$scope.list = "";
 	$scope.numberOfLunchItems=0;
 	$scope.warning = "";
@@ -36,7 +37,7 @@ angular.module('LunchCheck',[])
 		return numberOfItems;
 	}
 
-});
+};
 
 })();
 
