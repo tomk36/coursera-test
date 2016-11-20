@@ -4,10 +4,13 @@
 
 angular.module('LunchCheck',[])
 
+
 .controller('LunchCheckController', function ($scope) {
+	LunchCheck.$inject = [$scope];
 	$scope.list = "";
 	$scope.numberOfLunchItems=0;
 	$scope.warning = "";
+
 
 	$scope.displayWarning = function () {
 		var LunchItemCounter = CountItems($scope.list);
